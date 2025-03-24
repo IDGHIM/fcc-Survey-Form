@@ -1,7 +1,8 @@
 # FCC-Survey-Form
 
 ## Objectifs
- *Build an app that is functionally similar to [Survey Form](https://survey-form.freecodecamp.rocks). Do not copy this demo project.*
+Build a Survey Form to collect data from your users.
+ *Similar to [Survey Form](https://survey-form.freecodecamp.rocks). Do not copy this demo project.*
 
 ## Instructions
    - [ ] You should have a page title in an h1 element with an id of title
