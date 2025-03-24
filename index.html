@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+<body>
+    <div class="container">
+        <h1 id="title" class="text-center">Formulaire d'inscription en EHPAD</h1>
+            <p id="description" class="text-center">
+              <i>Merci de prendre de renseigner toutes les informations</i>
+            </p>
+    <form id="survey-form">
+    <fieldset>
+        <div>
+            <label id="name-label" for="name">Nom 
+                <input id="name" name="name" type="text" placeholder="Entrer votre nom" required />
+            </label>
+        </div>
+        <div>
+            <label id="name-label" for="name">Prénom 
+                <input id="name" name="name" type="text" placeholder="Entrer votre prénom" required />
+            </label>
+        </div>
+        <div>
+            <label id="email-label" for="email">Email 
+                <input id="email" name="email" type="email" placeholder="Entrer votre email" required />
+            </label>
+        </div>
+        <div>      
+            <label id="number-label" for="number">Age 
+              <input id="number" name="number" type="number" min="000" max="999" placeholder="Age" required/>
+            </label>
+        </div>
+    </fieldset>
+        <div>
+            <p>Lien avec la personne concernée</p>
+            <select id="dropdown">
+                <option>Sélectionner</option>
+                <option value="Conjoint">Conjoint/conjointe</option>
+                <option value="Enfants">Enfants</option>
+                <option value="Proche">Famille proche</option>
+                <option value="Eloignée">Famille éloignée</option>
+            </select>
+        <div>  
+            <p>Date d'entrée souhaitée :</p>
+            <label> 
+                <input id="input-radio" name="recommend" value ="Immédiate" type="radio" required /> Immédiate
+            </label>
+            <label> 
+                <input id="input-radio" name="recommend" value ="Mois" type="radio" required /> Dans les 6 mois
+            </label>
+            <label> 
+                <input id="input-radio" name="recommend" value ="Echéance" type="radio" required /> Echéance plus lointaine
+            </label>
+        </div>
+        <div>
+            <p>La personne concernée a-t-elle besoin d'aide ?</p>
+            <label>
+                <input class="checkbox" name="like" value="oui" type="checkbox">Oui
+            </label>
+            <label>
+                <input class="checkbox" name="like" value="non" type="checkbox">Non
+            </label>
+            <label>
+                <input class="checkbox" name="like" value="temps en temps" type="checkbox">De temps en temps
+            </label>
+        </div>
+        <div>
+            <p>Des choses à nous faire savoir ?</p>
+            <textarea placeholder=""></textarea>
+        </div>
+        <div>
+            <input id="submit" type="submit" value="Submit" />
+        </div>
+    </form>
+    </div>
+</body>
