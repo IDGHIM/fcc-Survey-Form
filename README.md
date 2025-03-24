@@ -4,7 +4,6 @@
  *Build an app that is functionally similar to [Survey Form](https://survey-form.freecodecamp.rocks). Do not copy this demo project.*
 
 ## Instructions
-
    - [ ] You should have a page title in an h1 element with an id of title
    - [ ] You should have a short explanation in a p element with an id of description
    - [ ] You should have a form element with an id of survey-form
@@ -23,6 +22,8 @@
    - [ ] Inside the form element, you are presented with a button with id of submit to submit all the inputs
 
 **Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!**
-
 >[!IMPORTANT]
 >Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
+
+## Context of project 
+This is one of the required projects to earn certification
