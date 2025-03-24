@@ -1,7 +1,7 @@
 # fcc-Survey-Form
  Build an app that is functionally similar to [Survey Form](https://survey-form.freecodecamp.rocks). Do not copy this demo project.
 
-# Instructions
+Instructions
 
 Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
     [x]You should have a page title in an h1 element with an id of title
